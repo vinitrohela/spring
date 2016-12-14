@@ -1,7 +1,9 @@
 ---
 applications:
-- name: spring-music
+- name: spring-music-bharat-vinit-sameer
   memory: 1G
-  random-route: true
   path: build/libs/spring-music.jar
+  host: spring-music-bharat-vinit-sameer
+  domains:
+  - platform-test.allstate.com
 
