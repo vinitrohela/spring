@@ -1,6 +1,9 @@
 #!/usr/bin/env groovy
 
 node {
-  stage "Dummy"
-    sh "echo $BUILD_NUMBER"
+
+  checkout scm
+
+  stage "Assemble"
+    sh "./gradlew assemble"
 }
