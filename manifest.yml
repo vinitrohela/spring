@@ -1,8 +1,9 @@
 ---
 applications:
-- name: spring-DD-music
+- name: spring-music-vinit
   memory: 1G
   path: build/libs/spring-music.jar
-  host: spring-DD-aspl
+  host: spring-music-vinit
   domains:
   - platform-test.allstate.com
+
